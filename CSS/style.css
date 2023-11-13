@@ -35,7 +35,7 @@ input {
     border-radius: 3px;
 }
 
-button {
+#convertBtn {
     background-color: #4caf50;
     color: white;
     padding: 10px 15px;
@@ -44,8 +44,22 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: purple;
+#convertBtn:hover {
+    opacity: 0.6;
+}
+
+
+#clearBtn {
+    background-color:rgb(65, 65, 135);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clearBtn:hover {
+    opacity: 0.6;
 }
 
 #result {
